@@ -71,12 +71,21 @@ if (Arrays.equals(
         System.out.println(Arrays.mismatch(arrayInteger16,arrayInteger17 ));
         System.out.println("inti dari penggunakan mismatch adalah jika semua data array sama maka dia akan -1" +
                 "namun jika ada perbedaan maka dia akan mengecek idex mana yang lebih dulu berbeda");
+        System.out.println("sort di array adalah mengurutkan,dan jika kita ingin menggunakan search,maka kita harus menggunakan" +
+                "sort terlebih dahulu,itu adalah salah satu kekurangan binary search");
+       // int[] arrayInteger18={1,2,3,4,78,6,7,8,9};
+        int[] arrayInteger19={1,4,3,2324,1,44,1343,224,45};
+        System.out.println("tidak menggunakan sort");
+satu(arrayInteger19);
+        System.out.println(" menggunakan sort");
 
-
-
-
-
-
+     Arrays.sort(arrayInteger19);//
+        satu(arrayInteger19);     // cara penggunaan sort seperti ini di inisialisassi Array.sort kemudian panggil fungsi nya
+        System.out.println("array menggunakan search,pemanggialn menggunakan binarySearch");
+        int angka=3;
+        int posisi=Arrays.binarySearch(arrayInteger19,angka);
+        System.out.println("angka ada di "+angka+" posisinya ada di index "+posisi);
+        // beginilah pemanggial search di array,semoga bermanfaat
     }
     private static void   satu(int[] dataArray){ // untuk lebih simple buat fungsi seperti ini,agar mudsh di debug
         System.out.println(Arrays.toString(dataArray));
