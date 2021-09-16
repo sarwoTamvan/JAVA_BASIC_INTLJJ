@@ -1,5 +1,5 @@
 # JAVA_BASIC_INTLJJ
-==
+
 *basic logic java*
 --
 *repo ini dibuat untuk pelajaran dan sebagai ingatan dikala lupa
